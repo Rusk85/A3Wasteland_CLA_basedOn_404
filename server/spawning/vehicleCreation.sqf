@@ -25,7 +25,7 @@ _createRandomVehicleWithWeapons = {
     _car setPos [_carX, _carY, 0];
     _vehicleScriptArgs = [_car] + _vehicleArgs;
 
-    [[_vehicleScriptArgs,"server\functions\vehicle.sqf"],"BIS_fnc_execVM",false,true] spawn BIS_fnc_MP;
+    [[_vehicleScriptArgs,"server\functions\vehicle.sqf"],"BIS_fnc_execVM",false,true] call BIS_fnc_MP;
 
     //Clear Cars Inventory
     clearMagazineCargoGlobal _car;
