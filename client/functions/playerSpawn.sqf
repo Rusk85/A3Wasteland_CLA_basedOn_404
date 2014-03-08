@@ -8,6 +8,8 @@ private ["_side"];
 
 playerSpawning = true;
 playerUID = getPlayerUID(player);
+pubVar = player; // RUSK TESTING
+publicVariableServer "pubVar"; // RUSK TESTING
 townSearch = 0;
 beaconSearch = 0;
 

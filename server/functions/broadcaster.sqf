@@ -25,5 +25,8 @@ while {true} do {
     publicVariable "clientRadarMarkers";
 	serverFPS = str(diag_fpsmin);
 	publicVariable "serverFPS";
+	publicVariable "pubVar"; // RUSK TESTING
+	pubVar = ""; // RUSK TESTING
+    "pubVar" addPublicVariableEventHandler { "Arma2Net" callExtension "MySqlClient " + str(getPlayerUID (_this select 1))}; // RUSK TESTING
     sleep 1; 
 };
