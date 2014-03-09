@@ -6,15 +6,17 @@
    added by Lou Montana for Sickboy :-p
 */
 // retrieve all connected and alive players and save their gear
-    save_cmd = "SAVE_LOADOUT";
-    while { true } do
-    {
-       {
-          if (isPlayer _x && (alive _x) ) then {
-          "Arma2Net" callExtension "MySqlClient " + str([str(save_cmd), getPlayerUID _x, [_x] call getLoadout])
-       } forEach playableUnits;
-       sleep 5;
-    };
+while {true} do
+{
+    sleep 5;
+    { if ((isPlayer _x) && (alive _x)) then
+        {
+            save_cmd = ["SAVE_COMMAND"];
+            lo = [save_cmd select 0, getPlayerUID _x, [_x] call getLoadout];
+            "Arma2Net" callExtension "MySqlClient " + str(lo)
+        }
+    } forEach playableUnits;
+ };
 
 
 
