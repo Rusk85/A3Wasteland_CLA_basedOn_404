@@ -83,7 +83,8 @@ switch _key do
 		if(_veh isKindOf "Bicycle") exitWith {};
 		if(_veh isKindOf "Motorcycle") exitWith {};
 		if(!(canMove _veh)) exitWith {};
-		
+
+
 		_velo = velocity _veh;
 		_xspd = _velo select 0;
 		_yspd = _velo select 1;
