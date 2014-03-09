@@ -51,6 +51,8 @@ fn_refillbox = compile preprocessFileLineNumbers "server\functions\fn_refillbox.
 //Player Management
 server_playerDied = compile preprocessFileLineNumbers "server\functions\serverPlayerDied.sqf";
 server_VIPEscape = compile preprocessFileLineNumbers "server\functions\escapeVIP.sqf";
+getLoadout = compile preprocessFileLineNumbers "server\functions\fnc_get_loadout.sqf";
+setLoadout = compile preprocessFileLineNumbers "server\functions\fnc_set_loadout.sqf";
 
 //Event handlers
 createLootMoney = compile preprocessFileLineNumbers "server\functions\dropLoot.sqf";

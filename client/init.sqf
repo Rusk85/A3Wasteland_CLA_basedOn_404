@@ -76,4 +76,4 @@ sleep 1;
 true spawn playerSpawn;
 [] execVM "client\functions\antiCheatClient.sqf";
 [] spawn FZF_IC_INIT;
-[] execVM "client\functions\loadoutFunctions.sqf";
+//[] execVM "client\functions\loadoutFunctions.sqf";
