@@ -73,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.48090523" vertical-offset="0" max-vertical-offset="707">
+            <state line="14" column="77" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vehicleSpawning.sqf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/functions/vehicleSpawning.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="336" selection-end="336" vertical-scroll-proportion="0.2982456" vertical-offset="0" max-vertical-offset="627">
               <folding />
             </state>
           </provider>
@@ -100,19 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="description.ext" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/description.ext">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="63" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="9" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="4471">
+            <state line="213" column="6" selection-start="6815" selection-end="6815" vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="4471">
               <folding />
             </state>
           </provider>
@@ -191,14 +191,15 @@
         <option value="$PROJECT_DIR$/client/functions/playerSpawn.sqf" />
         <option value="$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf" />
         <option value="$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf" />
+        <option value="$PROJECT_DIR$/server/functions/vehicleSpawning.sqf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -566,7 +567,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -574,10 +575,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31495327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34040403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31495327" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34040403" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -877,13 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="9" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="4471">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="32" selection-start="1337" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1173">
@@ -912,9 +906,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="6" selection-start="6815" selection-end="6815" vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="4471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.48090523" vertical-offset="0" max-vertical-offset="707">
+        <state line="14" column="77" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/functions/vehicleSpawning.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="336" selection-end="336" vertical-scroll-proportion="0.2982456" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
