@@ -12,7 +12,7 @@ while {true} do
     { if ((isPlayer _x) && (alive _x)) then
         {
             save_cmd = ["SAVE_COMMAND"];
-            lo = [[save_cmd select 0, getPlayerUID _x], [_x] call getLoadout];
+            lo = [[save_cmd select 0, getPlayerUID _x], [_x,["ammo"]] call getLoadout];
             "Arma2Net" callExtension "MySqlClient " + str(lo);
         }
     } forEach playableUnits;

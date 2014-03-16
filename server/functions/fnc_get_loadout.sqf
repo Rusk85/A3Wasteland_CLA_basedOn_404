@@ -197,32 +197,6 @@ _magazines = [];
 } forEach _assignedItems;
 _loadedMagazines set [3, _magazines];
 
-// select back originaly selected weapon and mode
-if(vehicle _target == _target) then {
-	if(_currentWeapon != "" && _currentMode != "") then {
-		_muzzles = 0;
-		while{ (_currentWeapon != currentMuzzle _target || _currentMode != currentWeaponMode _target ) && _muzzles < 200 } do {
-			_target action ["SWITCHWEAPON", _target, _target, _muzzles];
-			_muzzles = _muzzles + 1;
-		};
-		if(_isFlashlightOn) then {
-			_target action ["GunLightOn"];
-		};
-		if(_isIRLaserOn) then {
-			_target action ["IRLaserOn"];
-		};	
-	};
-} else {
-	_currentMode = "";
-};
-if(_currentMode == "") then {
-	if(_currentWeapon=="") then {
-		_target action ["SWITCHWEAPON", _target, _target, 0];			
-	} else {
-		_target selectWeapon _currentWeapon;
-	};
-};
-   
 _data = [
 	_assignedItems, //0
 

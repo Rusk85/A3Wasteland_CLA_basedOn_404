@@ -9,7 +9,7 @@ if(!X_Server) exitWith {};
 private ["_counter","_pos","_type","_num","_markerName","_marker","_amountOfVehicles","_hint"];
 
 _counter = 0;
-// RUSK TESTING : LOWERED TO 10 FROM 770 
+// RUSK TESTING : LOWERED TO 10 FROM 770
 for "_i" from 1 to 10 do
 {
 	_pos = getMarkerPos format ["Spawn_%1", _i];
