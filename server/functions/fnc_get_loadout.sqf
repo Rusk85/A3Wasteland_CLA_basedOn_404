@@ -199,24 +199,25 @@ _loadedMagazines set [3, _magazines];
 
 _data = [
 	_assignedItems, //0
+	
+	//1
+	[primaryWeapon _target, primaryWeaponItems _target], //2
 
-	primaryWeapon _target, //1
-	primaryWeaponItems _target, //2
+	//3
+	[handgunWeapon _target, handgunItems _target], //4
 
-	handgunWeapon _target, //3
-	handgunItems _target, //4
+	//5
+	[secondaryWeapon _target, secondaryWeaponItems _target], //6 
+	
+	//7
+	[uniform _target, [uniformItems _target] call _getMagsAmmo], //8
 
-	secondaryWeapon _target, //5
-	secondaryWeaponItems _target, //6 
-
-	uniform _target, //7
-	[uniformItems _target] call _getMagsAmmo, //8
-
-	vest _target, //9
-	[vestItems _target] call _getMagsAmmo, //10
-
-	backpack _target, //11 
-	[_backPackItems] call _getMagsAmmo, //12
+	//9
+	[vest _target, 
+	[vestItems _target] call _getMagsAmmo], //10
+	
+	//11 
+	[backpack _target, [_backPackItems] call _getMagsAmmo], //12
 
 	_loadedMagazines, //13 (optional)
 	_currentWeapon, //14 (optional)
