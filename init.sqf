@@ -57,7 +57,7 @@ if(X_Server) then {
 
 //init 3rd Party Scripts
 [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
-[] execVM "addons\proving_Ground\init.sqf";
+//[] execVM "addons\proving_Ground\init.sqf"; // RUSK TESTING : error in fnc_exec_console.sqf; I suspect missing braces
 [0.1, 0.5, 0.5] execVM "addons\scripts\DynamicWeatherEffects.sqf";
 
 // testing stuffs -- Rusk/080314

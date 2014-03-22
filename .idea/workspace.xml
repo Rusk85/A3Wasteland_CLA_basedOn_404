@@ -67,16 +67,16 @@
       <file leaf-file-name="init.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="32" selection-start="1337" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1173">
+            <state line="59" column="119" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
+      <file leaf-file-name="onMouseWheel.sqf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="9" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -85,16 +85,25 @@
       <file leaf-file-name="vehicleSpawning.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/vehicleSpawning.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="527">
+            <state line="11" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onKeyPress.sqf" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="onKeyPress.sqf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="48" selection-start="2757" selection-end="2757" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2533">
+            <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2540761" vertical-offset="0" max-vertical-offset="2533">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.sqf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/init.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="64" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
@@ -103,34 +112,7 @@
       <file leaf-file-name="OnKeyPressed.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/functions/OnKeyPressed.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="8" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="0" selection-start="6394" selection-end="6394" vertical-scroll-proportion="3.1507607" vertical-offset="1190" max-vertical-offset="4029">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fnc_set_loadout.sqf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/functions/fnc_set_loadout.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="20" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6188">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sqf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/init.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="668" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1020">
+            <state line="11" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -139,7 +121,7 @@
       <file leaf-file-name="broadcaster.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/broadcaster.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="29" column="33" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -148,7 +130,25 @@
       <file leaf-file-name="adminMenu.hpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1003">
+            <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="briefing.sqf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/briefing.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="33" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="2193">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fnc_exec_console.sqf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="10" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
               <folding />
             </state>
           </provider>
@@ -167,9 +167,7 @@
         <option value="$PROJECT_DIR$/fnc_get_loadout.sqf" />
         <option value="$PROJECT_DIR$/server/functions/serverVars.sqf" />
         <option value="$PROJECT_DIR$/client/functions/loadRespawnDialog.sqf" />
-        <option value="$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp" />
         <option value="$PROJECT_DIR$/client/clientEvents/onRespawn.sqf" />
-        <option value="$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf" />
         <option value="$PROJECT_DIR$/client/functions/fhq_debugconsole_support.sqf" />
         <option value="$PROJECT_DIR$/client/systems/common.hpp" />
         <option value="$PROJECT_DIR$/addons/proving_ground/defs_base_control.hpp" />
@@ -178,21 +176,25 @@
         <option value="$PROJECT_DIR$/server/admins.sqf" />
         <option value="$PROJECT_DIR$/addons/persistence/fnc_get_loadout_db_wrapper.sqf" />
         <option value="$PROJECT_DIR$/mp_test.sqf" />
-        <option value="$PROJECT_DIR$/briefing.sqf" />
         <option value="$PROJECT_DIR$/description.ext" />
         <option value="$PROJECT_DIR$/server/functions/skipBriefing.sqf" />
-        <option value="$PROJECT_DIR$/init.sqf" />
         <option value="$PROJECT_DIR$/server/functions/saveAllPlayerLoadout.sqf" />
         <option value="$PROJECT_DIR$/server/functions/loadoutFunctions.sqf" />
         <option value="$PROJECT_DIR$/server/functions/serverCompile.sqf" />
         <option value="$PROJECT_DIR$/server/init.sqf" />
-        <option value="$PROJECT_DIR$/client/init.sqf" />
         <option value="$PROJECT_DIR$/server/functions/broadcaster.sqf" />
         <option value="$PROJECT_DIR$/client/functions/playerSpawn.sqf" />
-        <option value="$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf" />
         <option value="$PROJECT_DIR$/server/functions/vehicleSpawning.sqf" />
         <option value="$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf" />
         <option value="$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf" />
+        <option value="$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp" />
+        <option value="$PROJECT_DIR$/briefing.sqf" />
+        <option value="$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf" />
+        <option value="$PROJECT_DIR$/init.sqf" />
+        <option value="$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf" />
+        <option value="$PROJECT_DIR$/client/functions/OnKeyPressed.sqf" />
+        <option value="$PROJECT_DIR$/client/init.sqf" />
+        <option value="$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf" />
       </list>
     </option>
   </component>
@@ -228,6 +230,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
+              <option name="myItemId" value="wastelandChernarus.Chernarus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,57 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="missions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -316,7 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
+              <option name="myItemId" value="wastelandChernarus.Chernarus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -334,7 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
+              <option name="myItemId" value="wastelandChernarus.Chernarus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,25 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A3Wasteland_CLA_basedOn_404" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,7 +316,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +327,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/functions" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -442,6 +376,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -467,19 +414,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -568,7 +502,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -592,8 +526,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -617,6 +551,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/init.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="668" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/functions/broadcaster.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/vehicle.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13513513" vertical-offset="85" max-vertical-offset="2856" />
@@ -704,93 +659,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/missions/mainMissions/mission_APC.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" vertical-offset="832" max-vertical-offset="1666">
-          <folding />
-        </state>
+        <state line="56" column="27" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" vertical-offset="832" max-vertical-offset="1666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/missions/worldMissionController.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
+        <state line="30" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/missions/mainMissionController.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="53" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="29" column="53" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/admins.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="286" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="15" column="20" selection-start="286" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/checkAdmin.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/systems/groups/acceptGroupInvite.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/briefing.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="26" selection-start="4099" selection-end="4099" vertical-scroll-proportion="0.0" vertical-offset="1482" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/functions/skipBriefing.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="138" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mp_test.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="123" selection-start="117" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="15" column="8" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/radarMarkerUpdate.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/setup.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/missions/setup.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/serverVars.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="4743">
-          <folding />
-        </state>
+        <state line="42" column="36" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="4743" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/clientEvents/onRespawn.sqf">
@@ -802,16 +716,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/functions/spawnAction.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1479">
-          <folding />
-        </state>
+        <state line="18" column="6" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1479" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/proving_ground/reloader/fnc_restore_loadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/functions/clientCompile.sqf">
@@ -823,37 +733,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/setup.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="11" column="39" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/proving_ground/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="18" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/init.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="46" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1445">
-          <folding />
-        </state>
+        <state line="73" column="18" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/serverTimeSync.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="20" column="4" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/serverCompile.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="46" selection-start="3774" selection-end="3799" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1156">
-          <folding />
-        </state>
+        <state line="53" column="46" selection-start="3774" selection-end="3799" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/description.ext">
@@ -865,77 +760,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/functions/playerSpawn.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/init.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="32" selection-start="1337" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/functions/OnKeyPressed.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="48" selection-start="2757" selection-end="2757" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="2533">
-          <folding />
-        </state>
+        <state line="11" column="2" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/vehicleSpawning.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="11" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="668" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/functions/fnc_set_loadout.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="20" selection-start="3090" selection-end="3090" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6188">
+        <state line="22" column="45" selection-start="720" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/broadcaster.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="29" column="33" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1003">
+        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
+    <entry file="file://$PROJECT_DIR$/briefing.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="101" column="33" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="2193">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
+    <entry file="file://$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="0" selection-start="6394" selection-end="6394" vertical-scroll-proportion="3.1507607" vertical-offset="1190" max-vertical-offset="4029">
+        <state line="22" column="10" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="119" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/functions/OnKeyPressed.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/init.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="64" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2540761" vertical-offset="0" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>

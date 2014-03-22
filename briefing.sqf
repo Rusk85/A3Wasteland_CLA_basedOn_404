@@ -92,7 +92,7 @@ player createDiaryRecord["Wasteland",
 
 player CreateDiaryRecord["Wasteland",
 [
-"WELCOME TO THE WASTELAND"
+"WELCOME TO THE WASTELAND",
 "
 The Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to the development team.
 <br/><br/>
@@ -119,5 +119,6 @@ A. This game has a food and water system that you must stay on top of if you hop
 Q. I saw someone breaking a rule, what do I do?<br/>
 A. Simply go into global chat and get the attention of one of the admins or visit www.saur.co/board/ and make a report if the offence is serious.
 <br/>
-"]
+"
+]
 ];

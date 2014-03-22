@@ -1,8 +1,16 @@
 private["_handled", "_faceCP", "_faceVP"];
 
-_key     = _this select 1;
-_shift   = _this select 2;
+
+if (isNil {_this}) exitWith{};
+
+_key     = _this select 0;
+
+// as far as I can see _shift is not being used -> pending removal
+if (!isNil {_this select 1})
+    then {_shift = _this select 1;}
+     else {_shit = "";};
 _handled = false;
+
 
 switch _key do
 {      

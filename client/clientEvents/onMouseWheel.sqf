@@ -6,7 +6,8 @@
 
 private ["_playerMenuHandle"];
 
-terminate _playerMenuHandle;
+if (!isnil {_playerMenuHandle})
+    then {terminate _playerMenuHandle;};
 
 _playerMenuHandle = [] spawn {
 	waituntil {!isnull player};
