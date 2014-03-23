@@ -73,28 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onMouseWheel.sqf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="onKeyPress.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="2533">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.sqf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/init.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="64" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
@@ -118,10 +100,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fnc_exec_console.sqf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fnc_exec_console.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13906448" vertical-offset="110" max-vertical-offset="1921">
+            <state line="26" column="57" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1921">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="266" column="57" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.6066838" vertical-offset="4050" max-vertical-offset="4828">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="9" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -130,7 +130,7 @@
       <file leaf-file-name="optionSelect.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/optionSelect.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="62" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2567">
+            <state line="24" column="62" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2567">
               <folding />
             </state>
           </provider>
@@ -185,8 +185,6 @@
         <option value="$PROJECT_DIR$/server/functions/broadcaster.sqf" />
         <option value="$PROJECT_DIR$/client/functions/playerSpawn.sqf" />
         <option value="$PROJECT_DIR$/server/functions/vehicleSpawning.sqf" />
-        <option value="$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf" />
-        <option value="$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf" />
         <option value="$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp" />
         <option value="$PROJECT_DIR$/briefing.sqf" />
         <option value="$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf" />
@@ -196,6 +194,8 @@
         <option value="$PROJECT_DIR$/init.sqf" />
         <option value="$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf" />
         <option value="$PROJECT_DIR$/client/systems/adminPanel/optionSelect.sqf" />
+        <option value="$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf" />
+        <option value="$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf" />
       </list>
     </option>
   </component>
@@ -260,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,65 +274,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="systems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="systems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wastelandChernarus.Chernarus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proving_ground" />
+              <option name="myItemId" value="functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -824,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/optionSelect.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2567">
+        <state line="24" column="62" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2567">
           <folding />
         </state>
       </provider>
@@ -838,7 +784,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/proving_ground/fnc_exec_console.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13906448" vertical-offset="110" max-vertical-offset="1921">
+        <state line="26" column="57" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="9" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="266" column="57" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.6066838" vertical-offset="4050" max-vertical-offset="4828">
           <folding />
         </state>
       </provider>
