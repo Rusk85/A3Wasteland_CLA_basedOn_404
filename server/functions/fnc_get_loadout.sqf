@@ -244,31 +244,59 @@ if(!_isRepetitive) then {
 	};
 };
 
-   
+
+_sqlRequest = ["SAVE",getPlayerUID _target];
+
+_currWeaponMode = [_currentWeapon, [_currentMode]]; 
+
+// avoid <null> values
+_primaryWeaponMagazine = [];
+_handgunWeaponMagazine = [];
+_secondaryWeaponMagazine = [];
+
+if (!isNil {_loadedMagazines select 0 select 0})
+	then {_primaryWeaponMagazine = _loadedMagazines select 0 select 0;};
+
+if (!isNil {_loadedMagazines select 1 select 0})
+	then {_handgunWeaponMagazine = _loadedMagazines select 1 select 0;};
+				
+if (!isNil {_loadedMagazines select 2 select 0})
+	then {_secondaryWeaponMagazine = _loadedMagazines select 2 select 0;}; 
+ 
+ 
 _data = [
-	_assignedItems, //0 []
 
-	[primaryWeapon _target, //1 ""
-	primaryWeaponItems _target], //2 []
+	_sqlRequest,
+	
+	_currWeaponMode,
+	
+	[
+		_assignedItems,
+	
+		[primaryWeapon _target, 
+		primaryWeaponItems _target,
+		_primaryWeaponMagazine], 
 
-	[handgunWeapon _target, //3 ""
-	handgunItems _target], //4 []
+		[handgunWeapon _target, 
+		handgunItems _target,
+		_handgunWeaponMagazine], 
 
-	[secondaryWeapon _target, //5 ""
-	secondaryWeaponItems _target], //6 []
+		[secondaryWeapon _target, 
+		secondaryWeaponItems _target,
+		_secondaryWeaponMagazine], 
 
-	[uniform _target, //7 ""
-	[uniformItems _target, "Uniform"] call _getMagsAmmo], //8 ["magazine without ammo count",["magazine with ammo count",30], ....]
+		[uniform _target,
+		[uniformItems _target, "Uniform"] call _getMagsAmmo], //["magazine without ammo count",["magazine with ammo count",30], ....]
 
-	[vest _target, //9 ""
-	[vestItems _target, "Vest"] call _getMagsAmmo], //10
+		[vest _target,
+		[vestItems _target, "Vest"] call _getMagsAmmo],
 
-	[backpack _target, //11  ""
-	[_backPackItems, "Backpack"] call _getMagsAmmo], //12
-
-	_loadedMagazines, //13 (optional) [[primary mags],[handgun mags],[secondary mags],[other mags]]
-	[_currentWeapon, [_currentMode]] //14 && 15 (optional) ""
+		[backpack _target, 
+		[_backPackItems, "Backpack"] call _getMagsAmmo]
+	]
 ];
+
+
 
 // addAction support
 if(count _this < 4) then {
@@ -277,3 +305,6 @@ if(count _this < 4) then {
 	loadout = _data;
 	//playSound3D ["A3\Sounds_F\sfx\ZoomOut.wav", _target];
 };   
+
+
+

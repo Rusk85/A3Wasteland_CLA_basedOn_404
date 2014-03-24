@@ -112,7 +112,7 @@
       <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="57" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.6066838" vertical-offset="4050" max-vertical-offset="4828">
+            <state line="299" column="0" selection-start="8753" selection-end="8753" vertical-scroll-proportion="1.0874037" vertical-offset="4237" max-vertical-offset="5372">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,7 @@
       <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="15" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -296,7 +296,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/functions" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="preferences.general" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -791,14 +791,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="15" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="57" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.6066838" vertical-offset="4050" max-vertical-offset="4828">
+        <state line="299" column="0" selection-start="8753" selection-end="8753" vertical-scroll-proportion="1.0874037" vertical-offset="4237" max-vertical-offset="5372">
           <folding />
         </state>
       </provider>
