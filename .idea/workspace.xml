@@ -76,7 +76,7 @@
       <file leaf-file-name="onKeyPress.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="2533">
+            <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="OnKeyPressed.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/functions/OnKeyPressed.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+            <state line="11" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="299" column="0" selection-start="8753" selection-end="8753" vertical-scroll-proportion="1.0874037" vertical-offset="4237" max-vertical-offset="5372">
+            <state line="127" column="58" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.36713734" vertical-offset="1873" max-vertical-offset="5372">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,7 @@
       <file leaf-file-name="savePlayerLoadout.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/functions/savePlayerLoadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="15" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -148,7 +148,7 @@
       <file leaf-file-name="modMenu.hpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/modMenu.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+            <state line="7" column="14" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -345,19 +345,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -383,6 +370,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -479,10 +479,9 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2364486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2364486" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23551401" sideWeight="0.50036365" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -494,9 +493,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25975358" sideWeight="0.49963635" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -520,11 +520,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
+    <entry file="file://$PROJECT_DIR$/description.ext">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1003">
+        <state line="24" column="43" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="816">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/modMenu.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/vehicle.sqf">
@@ -654,9 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/clientEvents/onRespawn.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="19" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/functions/spawnAction.sqf">
@@ -666,9 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/functions/clientCompile.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="78" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="18" column="78" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/setup.sqf">
@@ -693,49 +701,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/vehicleSpawning.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="720" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="22" column="45" selection-start="720" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/broadcaster.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="29" column="33" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/systems/adminPanel/dialog/adminMenu.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
+        <state line="46" column="33" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/clientEvents/onMouseWheel.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="9" column="40" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="64" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1445">
-          <folding />
-        </state>
+        <state line="51" column="64" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/clientEvents/onKeyPress.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="2533">
+        <state line="11" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="2533">
           <folding />
         </state>
       </provider>
@@ -798,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="299" column="0" selection-start="8753" selection-end="8753" vertical-scroll-proportion="1.0874037" vertical-offset="4237" max-vertical-offset="5372">
+        <state line="127" column="58" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.36713734" vertical-offset="1873" max-vertical-offset="5372">
           <folding />
         </state>
       </provider>

@@ -126,14 +126,14 @@ if(_saveMagsAmmo) then {
 	// check if input array contains magazine, if it does, find it add ammo count
 	_getMagsAmmo = {
 		private ["_items","_location","_item","_itemIndex"];
-		_items = _this select 0;		
+		_items = _this select 0;
 		_location = _this select 1;
 		{
 			_item = _x;
 			_itemIndex = _forEachIndex;
 			{
 				if((_x select 4)==_location && (_x select 0)==_item) then {
-					_items set[_itemIndex, [_item, _x select 1]];
+					_items set[_itemIndex, ["Magazine",[_item, _x select 1]]];
 					_x = -1;					
 				};
 			} forEach _magazinesAmmo;
