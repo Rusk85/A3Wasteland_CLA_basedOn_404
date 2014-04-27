@@ -165,27 +165,40 @@ if((_goggles != "") && !(_goggles in _assignedItems)) then {
 	_assignedItems set [count _assignedItems, _goggles];
 };
 
+_wrapType = 
+{
+	// PARAMETERS:
+	// 0 : type name
+	// 1 : type
+	//
+	// return: wrapped type
+	// example: 
+	// param1: "AssignableItem"
+	// param2: "ItemMap"
+	// result: ["AssignableItem",["ItemMap"]]
+	private ["_wrappedType"];
+	_wrappedType = [_this select 0,[_this select 1]];
+	//return:
+	_wrappedType;
+};
+
+_wrapAssignedItems = 
+{
+	// PARAMETERS:
+	// 0 : _assignedItems
+	// return: _wrappedAssignedItems
+	// ["assignableItemClassName"] -> ["AssignableItem",["assignableItemClassName"]]
+	private ["_wrappedItems", "_assignableItems"];
+	_assignableItems = _this select 0;
+	_wrappedItems = [];
+	{
+		_wrappedItems set[count _wrappedItems, ["AssignableItem",_x] call _wrapType];
+	} forEach _assignableItems;
+	// return:
+	_wrappedItems;
+};	
 
 
-/*
-// use this once magazinesAmmoFull is fixed and shows magazines of assignedItems
-
-// get magazines of everything else except weapons, most likely assigned items
-// only ["Uniform","Vest","Backpack"] locations remain, weapon locations have already been eaten
-_magazines = [];
-{	
-	if(_x select 2) then {
-		if(_saveMagsAmmo) then {
-			_magazines set[count _magazines, [_x select 0, _x select 1]];
-		} else {
-			_magazines set[count _magazines, _x select 0];
-		};
-		_x = -1;
-	};
-} forEach _magazinesAmmo;
-_magazinesAmmo = _magazinesAmmo - [-1];	
-_loadedMagazines set [3, _magazines];
-*/
 
 
 // old method using selectWeapon, cycles and tries to selectWeapon all assigned items
@@ -211,7 +224,7 @@ if(!_isRepetitive) then {
 	} forEach _assignedItems;
 	_loadedMagazines set [3, _magazines];
 
-	// select back originaly selected weapon and mode, only if weapon has changed
+	// select back originally selected weapon and mode, only if weapon has changed
 	if(_weaponHasChanged) then {
 		if(_isOnFoot) then {
 			if(_currentWeapon != "" && _currentMode != "") then {
@@ -245,7 +258,9 @@ if(!_isRepetitive) then {
 };
 
 
-_sqlRequest = ["SAVE",getPlayerUID _target];
+_command = ["SAVE"];
+
+_playerInfo = [name _target, getPlayerUID _target];
 
 _currWeaponMode = [_currentWeapon, [_currentMode]]; 
 
@@ -266,12 +281,14 @@ if (!isNil {_loadedMagazines select 2 select 0})
  
 _data = [
 
-	_sqlRequest,
+	_command,
+	
+	_playerInfo,
 	
 	_currWeaponMode,
 	
 	[
-		_assignedItems,
+		[_assignedItems] call _wrapAssignedItems,
 	
 		[primaryWeapon _target, 
 		primaryWeaponItems _target,

@@ -94,7 +94,7 @@
       <file leaf-file-name="briefing.sqf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/briefing.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="33" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="2193">
+            <state line="101" column="33" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="fnc_get_loadout.sqf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="58" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.36713734" vertical-offset="1873" max-vertical-offset="5372">
+            <state line="297" column="29" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.55455714" vertical-offset="4617" max-vertical-offset="5661">
               <folding />
             </state>
           </provider>
@@ -231,7 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +283,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -794,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/functions/fnc_get_loadout.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="58" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.36713734" vertical-offset="1873" max-vertical-offset="5372">
+        <state line="297" column="29" selection-start="8563" selection-end="8563" vertical-scroll-proportion="0.55455714" vertical-offset="4617" max-vertical-offset="5661">
           <folding />
         </state>
       </provider>
